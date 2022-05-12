@@ -1,0 +1,161 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+table, th, td {
+    border-spacing: 2px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+th {
+    background-color: blue;
+}
+
+#start-button {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    background-color: blue;
+}
+
+#box{
+
+    background-color: #c7c7c7;
+    box-shadow: 5px 5px;
+    position: center;
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#welcome-button{
+    margin-left: 35%;
+}
+
+#welcome-message{
+    text-align: center;
+}
+
+#score-div {
+    color: white;
+    background-color: blue;
+    margin: auto;
+    width: 130px;
+    height: 50px;
+    font-size: xx-large;
+    border: black solid 3px;
+}
+
+#score-input, #score-form {
+    visibility: hidden;
+}
+
+.main{
+    background-image: url(../images/tetris.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 95%;
+    height: 93%;
+}
+
+.input-title{
+    font-size: 25px;
+    margin: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: Black;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #0096FF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input{
+
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin #aaa;
+    width: 92%;
+    margin-left: 5px;
+}
+
+.container {
+    background-color: #c7c7c7;
+}
+
+.tetris-bg {
+    width: 200px;
+    height: 400px;
+    background-image: url(../images/tetris-grid-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #c7c7c7;
+    position: absolute;
+    box-shadow: 5px 5px;
+    top: 40%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+}
+
+.tetris-bg div {
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.leaderboard {
+    background-color: #c7c7c7;
+    display: table;
+    box-shadow: 5px 5px;
+    margin: auto;
+}
+
+.navbar {
+    background-color: blue;
+    overflow: hidden;
+    margin: 0px;
+    height: 7%;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #c7c7c7;
+    color: black;
+}
+
+.navbar a.right{
+    float: right;
+}
